@@ -2,10 +2,13 @@
                      Workbench Incident Template Macros
    https://github.com/deduncan-tesla/eTicketing-Template-Macro/releases/latest/
                               Devan Duncan
-                        Rev. 2023.07.18 (v1.0.1.8)
+                        Rev. 2023.07.18 (v23.07.18.00)
 ```
 
-NEW IN 1.0.1.8:
+NEW IN v23.07.18.00:
+-  Script will check for existing Data folder on startup; if not found, user will be prompted to select an install location. Script will then download latest version into that directory and remove downloaded file.
+
+NEW IN v23.07.17.00:
 -  If already open, hotkey restores instead of relaunch
 -  Menu will remember last position if it reopens (unless closed by user)
 -  Hotfix for HTML editor link for Email templates not working
@@ -13,7 +16,7 @@ NEW IN 1.0.1.8:
 -  Hotfix for HTML editor using `<em>` instead of `<i>` for italics
 -  Hotfix for invisible unicode chars coverting to "???????" in HTML templates
 
-NEW IN 1.0.1.7:
+NEW IN v23.07.16.00:
 -  Email Templates! You can now create bulk email templates with variables.
 -  Text filtering for tabs
 -  Smoother menu scrolling (less flickering)
@@ -42,4 +45,4 @@ TODO:
 -  Error handling for missing attachments
 -  Workbench attachments
 -  Detect new Ticketing, switch back to eTicketing
--  First-run installer (check for Data folder, if not present prompt for install location, then download newest version into target directory and run)
+-  Error for PowerBI access missing - localparam to disable supplier search
